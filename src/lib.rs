@@ -46,6 +46,7 @@ mod geom;
 mod line_clipper;
 mod mask;
 mod math;
+mod mipmap;
 mod path64;
 mod path_geometry;
 mod pipeline;
@@ -62,6 +63,7 @@ pub use color::{ALPHA_OPAQUE, ALPHA_TRANSPARENT, ALPHA_U8_OPAQUE, ALPHA_U8_TRANS
 pub use mask::{Mask, MaskType};
 pub use painter::{FillRule, Paint};
 pub use pixmap::{Pixmap, PixmapMut, PixmapRef, BYTES_PER_PIXEL};
+pub use mipmap::Mipmaps;
 pub use shaders::{FilterQuality, GradientStop, PixmapPaint, SpreadMode};
 pub use shaders::{LinearGradient, Pattern, RadialGradient, Shader};
 
